@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Game from './game/game';
 import Clock from './clock/clock';
+import Calculator from './calculator/calculator'
 
 class App extends Component {
   constructor(props){
@@ -30,6 +31,7 @@ class App extends Component {
         {
           this.state.status ? <Game/> :  <Clock name = {this.state.name}/>
         }
+        <Calculator></Calculator>
       </div>
     );
   }
