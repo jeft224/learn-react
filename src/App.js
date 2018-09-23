@@ -5,6 +5,7 @@ import Game from './game/game';
 import Clock from './clock/clock';
 import Calculator from './calculator/calculator'
 import CombineComponents from './combineComponents'
+import FilterableProductTable from './think-in-react/filterableProductTable'
 
 class App extends Component {
   constructor(props){
@@ -34,6 +35,7 @@ class App extends Component {
         }
         <Calculator></Calculator>
         <CombineComponents></CombineComponents>
+        <FilterableProductTable></FilterableProductTable>
       </div>
     );
   }
